@@ -1,0 +1,102 @@
+#VRML_SIM R2023a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/appearances/protos/Pcb.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.6000586193653302 0.5985601492825166 0.5307121639987774 2.167837797961702
+  position -0.03145770736298764 1.5121648403976633 12.128080722884032
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation 0 0.02 1.06143e-07
+  rotation -1 0 0 -5.307179586466759e-06
+  wallThickness 0.05
+  wallHeight 0.05
+}
+E-puck {
+  hidden position_0_0 1877.8346288687721
+  hidden position_0_1 3160.235615078935
+  hidden linearVelocity_0 0.005858412514510124 0.05550384203237779 2.1860375655290946e-05
+  hidden angularVelocity_0 -0.0020502813440680502 -0.000743705830243312 0.09804517736098672
+  hidden translation_1 0 0.026 0.02
+  hidden rotation_1 0 1 0 5.445407329255373
+  hidden linearVelocity_1 0.0055997545244527306 0.052967477229439563 -1.0227500589333354e-08
+  hidden angularVelocity_1 -2.6428330130866255 0.2785166265228638 0.10080841461915968
+  hidden translation_2 0 -0.026 0.02
+  hidden rotation_2 0 1 0 6.076590874782688
+  hidden linearVelocity_2 0.00611480486228122 0.05811449687921482 -1.8338519749614473e-07
+  hidden angularVelocity_2 -2.907727599598221 0.3072193586185772 0.10283427254127397
+  translation 0.24312389553373967 -0.0970093367333496 -6.925844121884184e-05
+  rotation 0.0002863157972965314 -0.0006809751338655468 -0.9999997271480285 -1.4671939269424321
+}
+DEF box_1 Transform {
+  translation -0.27 0.33 0
+  children [
+    Shape {
+      appearance Pcb {
+        textureTransform TextureTransform {
+        }
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+}
+DEF box_2 Transform {
+  translation 0.08 0.18 0
+  children [
+    Shape {
+      appearance Pcb {
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+}
+DEF box_3 Transform {
+  translation -0.38 -0.05 0
+  children [
+    Shape {
+      appearance Pcb {
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+}
+DEF box_4 Transform {
+  translation 0.32 -0.17 0
+  children [
+    Shape {
+      appearance Pcb {
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+}
+DEF box_5 Transform {
+  translation -0.07 -0.35 0
+  children [
+    Shape {
+      appearance Pcb {
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+}
